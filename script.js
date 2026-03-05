@@ -1,5 +1,5 @@
 const participants = [
-    ["G-101", "JONY CORTES"], ["G-102", "ATZIRI G."], ["G-103", "ALEXA CORONA"],
+    ["G-101", "JONY CORTES"], ["G-102", "ATZIRI MEJIA"], ["G-103", "ALEXA CORONA"],
     ["G-104", "JUAN PÉREZ"], ["G-105", "MARÍA GARCÍA"], ["G-106", "CARLOS LÓPEZ"],
     ["G-107", "LUIS HERNÁNDEZ"], ["G-108", "ANA MARTÍNEZ"], ["G-110", "SOFÍA SÁNCHEZ"],
     ["G-111", "ROBERTO GÓMEZ"], ["G-112", "ELENA TORRES"]
@@ -85,5 +85,6 @@ function launchCelebration() {
         if (Date.now() < end) requestAnimationFrame(frame);
     }());
 }
+
 
 btn.addEventListener('click', startRaffle);
